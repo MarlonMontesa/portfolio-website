@@ -1,6 +1,7 @@
 import React from 'react'
 import {TypeAnimation} from 'react-type-animation'
 import {BsFacebook, BsTwitter, BsInstagram, BsLinkedin} from 'react-icons/bs'
+import { FaGithub } from "react-icons/fa";
 
 
 const Main = () => {
@@ -30,7 +31,7 @@ const Main = () => {
     <div className='flex justify-between pt-6 max-w-[200px] w-full'>
         <a href="https://www.facebook.com/marlon.vmontesa?mibextid=ZbWKwL" target='_blank'><BsFacebook className='cursor-pointer' size={20} /></a>
         <a href="https://www.instagram.com/maaaarl_lon/" target='_blank'><BsInstagram className='cursor-pointer' size={20}/></a>
-        <BsTwitter className='cursor-pointer' size={20}/>
+        <a href="https://github.com/MarlonMontesa?tab=repositories" target='_blank'><FaGithub className='cursor-pointer' size={20}/></a>
         <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target='_blank'><BsLinkedin className='cursor-pointer' size={20}/></a>
     </div>
         </div>
